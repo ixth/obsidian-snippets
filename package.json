@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "postcss src/bujo-checkboxes/bujo-checkboxes.pcss -o dist/bujo-checkboxes.css"
+  },
+  "devDependencies": {
+    "mime": "^3.0.0",
+    "postcss": "^8.4.20",
+    "postcss-cli": "^10.1.0",
+    "svgo": "^3.0.2"
+  }
+}

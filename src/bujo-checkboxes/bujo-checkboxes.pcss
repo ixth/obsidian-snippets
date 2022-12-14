@@ -1,0 +1,19 @@
+/* > — migrated */
+li[data-task=">"] > input[type=checkbox]:checked::after {
+    -webkit-mask-image: inline-image("icons/migrated.svg");
+}
+
+/* < — scheduled */
+li[data-task="<"] > input[type=checkbox]:checked::after {
+    -webkit-mask-image: inline-image("icons/scheduled.svg");
+}
+
+/* - — cancelled */
+li[data-task="-"] > input[type=checkbox]:checked::after {
+    -webkit-mask-image: inline-image("icons/cancelled.svg");
+}
+
+/* / — In Progress */
+li[data-task="/"] > input[type=checkbox]:checked::after {
+    -webkit-mask-image: inline-image("icons/progress.svg");
+}
